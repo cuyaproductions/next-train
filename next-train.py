@@ -16,7 +16,7 @@ COLORS = {
 # Constants
 BASE_DIR = getenv('HOME') + '/bin/metros/ATX/'
 NOW = datetime.datetime.now()
-WALKING_MINUTES = 1
+WALKING_MINUTES = 18
 
 ROUTE_ID = '550'
 DIRECTION = 'S'

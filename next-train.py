@@ -5,6 +5,7 @@ import csv
 import datetime
 import math
 from contextlib import contextmanager
+from os import getenv
 
 COLORS = {
     'WARNING': '\033[31m',
@@ -13,7 +14,7 @@ COLORS = {
 }
 
 # Constants
-BASE_DIR = 'metros/ATX/'
+BASE_DIR = getenv('HOME') + '/bin/metros/ATX/'
 NOW = datetime.datetime.now()
 WALKING_MINUTES = 1
 

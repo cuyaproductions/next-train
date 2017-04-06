@@ -1,6 +1,7 @@
 #!/bin/bash
 
 rm $HOME/bin/next-train
+rm -fr $HOME/bin/metros
 
 if [ $? -eq 0 ]
 then

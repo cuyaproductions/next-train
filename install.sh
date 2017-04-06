@@ -4,6 +4,7 @@
 dir="$HOME/bin"
 
 cp ./next-train.py $dir
+cp -fr ./metros $dir
 mv $dir/next-train.py $dir/next-train
 chmod +x $dir/next-train
 
